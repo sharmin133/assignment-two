@@ -331,29 +331,29 @@ margin-bottom: 52px;
  
 }
 .story-title{
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-weight: 900;
   line-height: 28.76px;
 }
 .story-btn{
   color: white;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 500;
   background-color:rgb(149, 178, 38);
   border: none;
   border-radius:48px ;
-  padding: 11px 20px;
+  padding: 11px 10px;
   margin-bottom: 23px;
 
 }
 .story-btn-2{
   color: white;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 500;
   background-color:rgb(93, 88, 240);
   border: none;
   border-radius:48px ;
-  padding: 11px 20px;
+  padding: 11px 10px;
   margin-bottom: 23px;
 
 }
@@ -494,6 +494,8 @@ display: none;
 
 .stories-container{
   grid-template-columns: repeat(1,1fr);
+  margin-left: 10px;
+  margin-right: 10px;
 
 }
 .story-items{
@@ -508,6 +510,7 @@ display: none;
   gap: 20px;
 
 }
+
 .our-story-title{
   margin-top: 40px;
 }
@@ -517,11 +520,11 @@ display: none;
   margin: 0 auto;
 }
 .story-btn{
-  font-size:1.2rem ;
+  font-size:1rem ;
   
 }
 .story-btn-2{
-  font-size:1.2rem ;
+  font-size:1rem ;
 }
  
 .fun-item{
