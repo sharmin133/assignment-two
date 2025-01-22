@@ -225,6 +225,7 @@ background-image: url(../assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 
 .stories-img-container1{
   max-width: 540px;
   margin-left: 140px;
+ 
   
 }
 
@@ -303,11 +304,12 @@ background-image: url(../assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 
   background-color: #3CD8E8;
   padding-left: 19px;
   padding-right: 19px;
-  padding-top: 14px;
+  padding-top: 19px;
   padding-bottom: 14px;
   border-radius: 47px;
   position: relative;
-  margin-top: -450px;
+  margin-top: -100px;
+  margin-left: 50px;
  
 }
 
@@ -318,12 +320,13 @@ background-image: url(../assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 
   color: #FFFFFF;
   background-color: #95B226;
   padding-left: 19px;
-  padding-right: 19px;
-  padding-top: 9px;
-  padding-bottom: 9px;
+  padding-right: 9px;
+  padding-top: 19px;
+  padding-bottom: 14px;
   border-radius: 47px;
   position: relative;
   margin-top: -300px;
+  margin-left: 50px;
   
 }
 
@@ -335,11 +338,12 @@ background-image: url(../assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 
   background-color: #5D58F0;
   padding-left: 19px;
   padding-right: 19px;
-  padding-top: 9px;
+  padding-top: 14px;
   padding-bottom: 9px;
   position: relative;
   border-radius: 47px;
   margin-top: -50px;
+  margin-left: 50px;
 
 }
 
@@ -484,7 +488,9 @@ display: none;
   grid-template-columns: repeat(2,1fr);
   max-width: 100%;
 }
-
+.stories-card-title{
+  max-width: 100%;
+}
 
 .footer-content{
   flex-direction: column;
