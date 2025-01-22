@@ -20,18 +20,24 @@
  
   /* navbar related  styles */
 
+  .menu-icon{
+    display: none;
+  }
 
-
+  
+ 
 .bg-color{
  
   background: rgb(247, 247, 247);
+  
 
 }
   .navbar{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 20px 70px;
+   
 
 
   }
@@ -44,7 +50,9 @@
     
   
   }
-
+.logo{
+  padding-bottom: 10px;
+}
   .nav-item{
     list-style: none;
     margin: 32px;
@@ -86,7 +94,11 @@
     color: #FFFFFF;
 }
 
-
+.marque{
+  font-size: 4rem;
+  font-weight: bold;
+  color: green;
+}
 
 /* Empowering styles */
 
@@ -294,8 +306,9 @@ background-image: url(../assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 
   padding-top: 14px;
   padding-bottom: 14px;
   border-radius: 47px;
+  position: relative;
   margin-top: -450px;
-  margin-left: 100px;
+ 
 }
 
 
@@ -309,8 +322,9 @@ background-image: url(../assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 
   padding-top: 9px;
   padding-bottom: 9px;
   border-radius: 47px;
+  position: relative;
   margin-top: -300px;
-  margin-left: 50px;
+  
 }
 
 
@@ -323,13 +337,17 @@ background-image: url(../assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 
   padding-right: 19px;
   padding-top: 9px;
   padding-bottom: 9px;
+  position: relative;
   border-radius: 47px;
-  margin-top: -300px;
-  margin-left: 50px;
+  margin-top: -50px;
+
 }
 
 
-
+.view{
+ 
+  text-align: center;
+}
 
 .button-7{
   font-size: 1.25rem;
@@ -339,10 +357,10 @@ background-image: url(../assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 
   border-radius: 12px;
   margin-top: 60px;
   margin-bottom: 40px;
-  margin-left: 621px;
-
   padding: 10px 61px;
  text-align: center;
+ 
+
  
 } 
 
@@ -365,9 +383,10 @@ background-color: #01ACFD;
   display: flex;
   justify-content: space-around;
   /* align-items: center; */
-  margin-left: 147px;
+  margin-left: 140px;
   margin-top: 20px;
   margin-bottom: 174px;
+  gap: 150px;
 
 }
 
@@ -381,7 +400,7 @@ background-color: #01ACFD;
 .footer-content-link{
 display: flex;
 flex-direction: column;
-margin-left: 100px;
+/* margin-left: 100px; */
 }
 
 .footer-link{
@@ -399,11 +418,6 @@ margin-left: 100px;
 }
 
 
-.footer-content-social{
-  margin-left: 228px;
-  /* margin-bottom: 60px; */
-}
-
 .about-title{
   font-size: 1.5rem;
   font-weight: bold;
@@ -412,4 +426,70 @@ margin-left: 100px;
 .keep{
   font-size: 1.5rem;
   font-weight: bold;
+}
+
+
+
+
+
+@media screen and (max-width:576px) {
+
+  .menu-icon{
+    display: block;
+  }
+  .navbar{
+    border-bottom: 1px solid orange;
+  margin: 0 auto;
+  }
+
+  .nav-content, .button-1, .school {
+display: none;
+
+  }
+
+  .Empowering{
+    flex-direction: column-reverse;
+    margin-left: 16px;
+    margin-right: 16px;
+
+  }
+
+  .hero-img{
+    max-width: 100%;
+  }
+
+  .empowering-content{
+   
+    text-align: center;
+  }
+
+
+  .arrow{
+    display: none;
+  }
+.curriculum-container{
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+
+
+.stories-img-container1{
+  display: none;
+}
+
+.stories-img-container{
+  grid-template-columns: repeat(2,1fr);
+  max-width: 100%;
+}
+
+
+.footer-content{
+  flex-direction: column;
+  margin-left: 20px;
+  gap: 20px;
+  
+}
 }
